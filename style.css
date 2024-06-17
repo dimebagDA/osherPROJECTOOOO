@@ -1,0 +1,16 @@
+table{
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    font-size: large;
+}
+
+#title,h2{
+    text-align: center;
+    
+}
+
+.center-text{
+    text-align: center;
+}
+

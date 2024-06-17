@@ -1,0 +1,10 @@
+
+
+.styled-table tbody td:hover {
+    background-color: purple;
+    cursor: pointer; /* משנה את סמן העכבר ליד */
+}
+
+.styled-table tbody td:nth-of-type(even):hover {
+    background-color: #7dcfb6; /* צבע שני */
+}

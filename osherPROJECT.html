@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Searching in tables</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style-hover-button.css">
+    <link rel="stylesheet" href="./style-hover-table.css">
+    <script src="./script.js" defer></script>
+
+</head>
+
+<body>
+
+<style>
+    body{
+        background-image: url(./pic.jpg);
+    }
+    body{
+        background-repeat: no-repeat;
+    }
+    body{
+        background-size:cover;
+    }
+   
+</style>
+
+     <h2 id="title"> Searching in tables </h2>
+    <table border="1" class="styled-table" id="osher_table1">
+        <tr>
+            <td> תפוח</td>
+            <td> תפוז </td>
+            <td>  אבטיח</td>
+            <td>  מלון</td>
+            <td> ענבים </td>
+            <td>  משמש</td>
+        </tr>
+        <tr>
+            <td>  פרארי</td>
+            <td> BMW</td>
+            <td>  למבורגיני</td>
+            <td>  מרצדס</td>
+            <td>  פורד</td>
+            <td>  הונדה</td>
+        </tr>
+
+    </table>
+    <hr />
+    <table border="1" class="styled-table" id="osher_table2">
+        <tr>
+            <td>  תות </td>
+            <td>  הרב אורן </td>
+            <td>  עידו</td>
+            <td>  אושר </td>
+            <td>  משה  </td>
+            <td>  שלמה</td>
+        </tr>
+        <tr>
+            <td>  גיטרה </td>
+            <td>  תופים </td>
+            <td>  גיטרה בס</td>
+            <td>  כינור</td>
+            <td>  חצוצרה</td>
+            <td>  פסנתר </td>
+        </tr>
+    </table>
+    <hr />
+    <table border="1" class="styled-table"id="osher_table3">
+        <tr>
+            <td>  </td>
+            <td>   </td>
+            <td>  אורן </td>
+            <td>  אושר </td>
+            <td>  משה  </td>
+            <td>  אמיר </td>
+        </tr>
+        <tr>
+            <td>  סהר </td>
+            <td>  דוד </td>
+            <td>  אמיר </td>
+            <td>  תות </td>
+            <td>  אורית </td>
+            <td>  אושר </td>
+        </tr>
+    </table>
+    
+    <hr />
+   <div class="center-text"> Color: <select name="color" id="color">
+        <option value="red"> red </option>
+        <option value="green">green </option>
+        <option value="blue">blue</option>
+        <option value="yellow">yellow</option>
+        <option value="purple">purple</option>
+    </select>
+    <input type="text" id="name">
+
+    <button id="btn" onclick="doIt();" class="hover-button">Search</button></div>
+    
+
+</body>
+</html>
